@@ -1,0 +1,64 @@
+.loginTitle {
+  background-color: cyan;
+  border-radius: 80px 80px 0 80px;
+  padding: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 80px;
+}
+
+.fullLoginBox {
+  width: 99vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.innerLoginBox {
+  background-color: aliceblue;
+  padding: 32px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  margin-bottom: 12px;
+  padding: 4px 10px;
+  border-radius: 12px;
+  border: 2px solid;
+  border-color: black;
+  height: 24px;
+  width: 210px;
+  font-size: medium;
+}
+
+.input:focus {
+  outline-color: cadetblue;
+}
+
+.loginButton {
+  font-size: large;
+  background-color: cyan;
+  /* outline: none; */
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  width: 120px;
+}
+
+.loginButton:active {
+  border: 2px solid blue;
+}
+
+.loginPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 97vh;
+  background-image: url("../public/vcetImage.png");
+  background-size: cover;
+}

@@ -1,0 +1,36 @@
+.checkInPage {
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkIn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkIn input,
+.checkIn select {
+  width: 300px;
+  padding: 8px;
+  margin: 4px 0;
+  font-size: medium;
+  border-radius: 12px;
+}
+
+.enter {
+  margin: 12px 0;
+  width: max-content;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.back {
+  display: flex;
+  align-items: start;
+  font-size: large;
+  padding: 8px 12px;
+}

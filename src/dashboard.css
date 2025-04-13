@@ -1,0 +1,79 @@
+.grid-header {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  background-color: #e5e7eb;
+  font-weight: 600;
+  text-align: center;
+}
+
+.grid-row {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  text-align: center;
+  padding: 5px 0;
+}
+
+.grid-row:hover {
+  background-color: #dddddd;
+  cursor: pointer;
+}
+
+.dashboard {
+  text-align: center;
+  margin: 48px;
+}
+
+.innerDashboard {
+  margin-bottom: 24px;
+}
+
+.link {
+  margin: 0 auto 12px;
+  padding-left: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  width: fit-content;
+  border: none;
+  background-color: blanchedalmond;
+  border-radius: 12px;
+
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  border: 2px solid darkgoldenrod;
+  border-radius: 20px;
+}
+
+.add {
+  padding: 12px;
+  border: 2px solid green;
+  background-color: greenyellow;
+  font-size: large;
+  border-radius: 15px;
+
+  transition: all 0.3s ease;
+}
+
+.add:hover {
+  cursor: alias;
+  padding: 16px 18px;
+  border-radius: 20px;
+  border: none;
+  background-color: greenyellow;
+  font-weight: 600;
+}
+
+.add:active {
+  padding: 12px;
+  border-radius: 20px;
+  border: 2px solid greenyellow;
+  background-color: green;
+  font-weight: 100;
+  font-size: medium;
+  color: greenyellow;
+}
